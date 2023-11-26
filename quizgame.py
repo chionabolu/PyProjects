@@ -13,35 +13,35 @@ if answer.lower() == "#":
     print('Correct!')
     score += 1
 else: 
-    print("Sorry, that was wrong!")
+    print("Sorry, that was wrong! The answer is #.")
 
-answer = input("What is used to print to the console?")
+answer = input("What is used to print to the console? ")
 if answer.lower() == 'print':
     print('Correct!')
     score += 1
 else:
-    print("Sorry, that was wrong!")
+    print("Sorry, that was wrong! The answer is print.")
 
 answer = input("What data type is used for numbers? ")
 if answer.lower() == "int":
     print('Correct!')
     score += 1
 else: 
-    print("Sorry, that was wrong!")
+    print("Sorry, that was wrong! The answer is int.")
 
 answer = input("What data type is used for numbers with decimals? ")
 if answer.lower() == "float":
     print('Correct!')
     score += 1
 else: 
-    print("Sorry, that was wrong!")
+    print("Sorry, that was wrong! The answer is float.")
 
-answer = input("Python is an interpreted, high-level, general-purpose programming language. True or False ")
-if answer.lower() == "True":
+answer = input("Python is an interpreted, high-level, general-purpose programming language. True or False? ")
+if answer.lower() == "true":
     print('Correct!')
     score += 1
 else: 
-    print("Sorry, that was wrong!")
+    print("Sorry, that was wrong! The answer is true.")
 
 print("You got " + str(score) + " questions correct!")
 print("You got " + str((score / 5) * 100) + "%.")
