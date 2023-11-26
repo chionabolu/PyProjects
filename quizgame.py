@@ -15,5 +15,33 @@ if answer.lower() == "#":
 else: 
     print("Sorry, that was wrong!")
 
+answer = input("What is used to print to the console?")
+if answer.lower() == 'print':
+    print('Correct!')
+    score += 1
+else:
+    print("Sorry, that was wrong!")
+
+answer = input("What data type is used for numbers? ")
+if answer.lower() == "int":
+    print('Correct!')
+    score += 1
+else: 
+    print("Sorry, that was wrong!")
+
+answer = input("What data type is used for numbers with decimals? ")
+if answer.lower() == "float":
+    print('Correct!')
+    score += 1
+else: 
+    print("Sorry, that was wrong!")
+
+answer = input("Python is an interpreted, high-level, general-purpose programming language. True or False ")
+if answer.lower() == "True":
+    print('Correct!')
+    score += 1
+else: 
+    print("Sorry, that was wrong!")
+
 print("You got " + str(score) + " questions correct!")
-print("You got " + str(score / 4) + "%.")
+print("You got " + str((score / 5) * 100) + "%.")
