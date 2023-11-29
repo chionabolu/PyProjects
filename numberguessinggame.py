@@ -27,9 +27,9 @@ while True:
     if user_guess == random_number:
         print("You got it!")
         break
-        if user_guess > random_number:
+    elif user_guess > random_number:
             print("Too high! Try again...")
-        else:
+    else:
             print("Too Low! Try again...")
     
 print("You got it in", guesses, "guesses")
